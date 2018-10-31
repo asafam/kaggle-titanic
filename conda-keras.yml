@@ -1,6 +1,7 @@
-name: kaggle-titanic
+name: keras
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.6
   - numpy
@@ -12,3 +13,5 @@ dependencies:
   - cython
   - jupyter
   - nb_conda_kernels
+  - pip:
+    - lime

@@ -13,5 +13,6 @@ dependencies:
   - cython
   - jupyter
   - nb_conda_kernels
+  - pydot
   - pip:
     - lime
